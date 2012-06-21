@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<coremetricsEventsMap>
+	<initialization>
+		
+		
+		<clientID>60380716</clientID>
+		<VN2>e4.0</VN2> 
+		<DCD>http://testdata.coremetrics.com</DCD>
+		<cookieDomain>www.sapient.com</cookieDomain>
+		<categoryName>Brightcove Video</categoryName>
+		
+	</initialization>
+	
+	
+	<events>
+		
+		<event name="playerLoaded">
+		<prop number="1" value="Event Name: Player Loaded" />
+			<prop number="2" value="Player Name:{experience.playerName}" />
+			<prop number="3" value="URL of Page:{experience.url}" />
+			<prop number="4" value="Exp ID:{experience.id}" />
+			<prop number="5" value="Pub Id:{experience.publisherID}" />
+			<prop number="6" value="Referrer URL:{experience.referrerURL}" />
+			<prop number="7" value="Exp Country:{experience.userCountry}" />
+			<prop number="8" value="Video Ad keys:{video.adKeys}" />
+			<prop number="9" value="Custom Field:{video.customFields['testcustomfield2']}" />
+			<prop number="10" value="Video Display Name:{video.displayName}" />
+			<prop number="11" value="Video Economics:{video.economics}" />
+			<prop number="12" value="Video ID:{video.id}" />
+			<prop number="13" value="Video Length:{video.length}" />
+			<prop number="14" value="Video Lineup ID:{video.lineupId}" />
+			<prop number="15" value="Video Link Text:{video.linkText}" />
+			<prop number="16" value="Video Link URL:{video.linkURL}" />
+			<prop number="17" value="Video Long Desc:{video.longDescription}" />
+			<prop number="18" value="Video Publisher ID:{video.publisherId}" />
+			<prop number="19" value="Video Ref ID:{video.referenceId}" />
+			<prop number="20" value="Video Short Desc:{video.shortDescription}" />
+			<prop number="21" value="Video Thumbnail URL:{video.thumbnailURL}" />
+			
+		</event>
+		
+		
+		<!-- VIDEO SPECIFIC EVENTS -->
+		
+		<event name="mediaBegin">
+			
+			<prop number="1" value="Event Name: Media Begin" />
+			<prop number="2" value="Player Name:{experience.playerName}" />
+			<prop number="3" value="URL of Page:{experience.url}" />
+			<prop number="4" value="Exp ID:{experience.id}" />
+			<prop number="5" value="Pub Id:{experience.publisherID}" />
+			<prop number="6" value="Referrer URL:{experience.referrerURL}" />
+			<prop number="7" value="Exp Country:{experience.userCountry}" />
+			<prop number="8" value="Video Ad keys:{video.adKeys}" />
+			<prop number="9" value="Custom Field:{video.customFields['testcustomfield2']}" />
+			<prop number="10" value="Video Display Name:{video.displayName}" />
+			<prop number="11" value="Video Economics:{video.economics}" />
+			<prop number="12" value="Video ID:{video.id}" />
+			<prop number="13" value="Video Length:{video.length}" />
+			<prop number="14" value="Video Lineup ID:{video.lineupId}" />
+			<prop number="15" value="Video Link Text:{video.linkText}" />
+			<prop number="16" value="Video Link URL:{video.linkURL}" />
+			<prop number="17" value="Video Long Desc:{video.longDescription}" />
+			<prop number="18" value="Video Publisher ID:{video.publisherId}" />
+			<prop number="19" value="Video Ref ID:{video.referenceId}" />
+			<prop number="20" value="Video Short Desc:{video.shortDescription}" />
+			<prop number="21" value="Video Thumbnail URL:{video.thumbnailURL}" />
+			
+			
+		</event>
+	
+		<event name="mediaComplete">
+		
+			<prop number="1" value="Event Name: Media Complete" />
+			<prop number="2" value="Player Name:{experience.playerName}" />
+			<prop number="3" value="URL of Page:{experience.url}" />
+			<prop number="4" value="Exp ID:{experience.id}" />
+			
+			
+		</event>
+		
+		<event name="mediaPause">
+		
+			<prop number="1" value="Event Name: Media Pause" />
+		
+		</event>
+		
+		<event name="mediaResume">	
+			
+			<prop number="1" value="Event Name: Media Resume" />
+			
+		</event>
+		
+		<event name="seekForward">	
+		
+			<prop number="1" value="Event Name: Seek Forward" />
+		
+		</event>
+		
+		<event name="seekBackward">	
+		
+			<prop number="1" value="Event Name: Seek Backward" />
+		
+		</event>
+		
+		<event name="mediaMuted">
+		
+		<prop number="1" value="Event Name: Media Muted" />
+		
+		</event>
+		
+		<event name="mediaUnmuted">
+		
+		<prop number="1" value="Event Name: Media UnMuted" />
+		
+		</event>
+		
+		<event name="volumeChanged">
+		
+		<prop number="1" value="Event Name: Volume Changed" />
+		
+		</event>
+		
+		<event name="renditionChangeRequest">
+		
+		<prop number="1" value="Event Name: Rendtion Change Request" />
+		
+		</event>
+		
+		<event name="renditionChangeComplete">
+		
+		<prop number="1" value="Event Name: Rendtion Change Complete" />
+		
+		</event>
+		
+		<!--  <time-based milestone example-->
+			
+		<event name="milestone" type="time" value="2"> 
+		<prop number="1" value="Event Name: Mile stone seconds 2" />
+		</event>
+	
+		
+		<event name="milestone" type="percent" value="25">
+		
+		<prop number="1" value="Event Name: Mile stone Percent 25" />
+		
+		</event>
+		
+		<event name="milestone" type="percent" value="50">
+		
+		<prop number="1" value="Event Name: Mile stone Percent 50" />
+		
+		</event>
+		
+		<event name="milestone" type="percent" value="75">
+		
+		<prop number="1" value="Event Name: Mile stone Percent 75" />
+		
+		</event>
+	
+		<!-- AD SPECIFIC EVENTS -->
+		<event name="adStart">
+		
+		<prop number="1" value="Event Name: Ad start" />
+		
+		</event>
+	
+		<event name="adPause">
+			<prop number="1" value="Event Name: Ad Pause" />
+		</event>
+		
+		<event name="adResume">
+			<prop number="1" value="Event Name: Ad Resume" />
+		</event>
+		
+		<event name="adComplete">
+		
+		<prop number="1" value="Event Name: Ad Complete" />
+		
+		</event>
+		
+		<event name="adClick">
+		
+		<prop number="1" value="Event Name: Ad Click" />
+		
+		</event>
+		<event name="adPostrollsComplete">
+		
+		<prop number="1" value="Event Name: Ad Post Rolls Complete" />
+		
+		</event>
+		
+		<event name="externalAd">
+		
+		<prop number="1" value="Event Name: External Ad" />
+	
+		</event>
+		
+		<event name="adReceived">
+		
+		<prop number="1" value="Event Name: Ad Received" />
+	
+		</event>
+		
+		<event name="adRulesReady">
+		
+		<prop number="1" value="Event Name: Ad Rules Ready" />
+	
+		</event>
+		
+		
+		
+		<!-- MENU/SOCIAL SPECIFIC EVENTS -->
+		<event name="embedCodeRetrieved">
+		
+		<prop number="1" value="Event Name: Embed Code" />
+		
+		</event>
+		<event name="linkGenerated"></event>
+		
+		<event name="codeCopied">
+		
+			<prop number="1" value="Event Name: Code Copied" />
+			
+		</event>
+
+		<event name="linkCopied">
+			
+			<prop number="1" value="Event Name: Link Copied" />
+		
+		</event>
+		
+		<event name="blogPosted">
+		
+		<prop number="1" value="Event Name: Blog Posted" />
+			
+		</event>
+		
+		<event name="menuPageOpened">
+			
+		<prop number="1" value="Event Name: Menu Page Opened" />
+			
+		</event>
+		
+		<event name="menuPageClosed">
+			
+			<prop number="1" value="Event Name: Menu Page Closed" />
+			
+		</event>
+		
+		<event name="emailSent">
+			
+			<prop number="1" value="Event Name: Email Sent" />
+		
+		</event>
+		
+		<event name="overlayMenuOpen">
+			
+			<prop number="1" value="Event Name: Overlay Menu Open" />
+		
+		</event>
+		
+		<event name="overlayMenuClose">
+			
+			<prop number="1" value="Event Name: Overlay Menu Close" />
+		
+		</event>
+		
+		<event name="overlayMenuClick">
+			
+			<prop number="1" value="Event Name: Overlay Menu Click" />
+		
+		</event>
+		
+		<event name="videoRequest">
+			
+			<prop number="1" value="Event Name: Video Request" />
+		
+		</event>
+		
+		
+		
+		<!-- EXPERIENCE SPECIFIC EVENTS -->
+		<event name="enterFullScreen">
+			
+			<prop number="1" value="Event Name:Enter Full Screen" />
+			
+		
+		</event>
+		
+		<event name="exitFullScreen">
+		
+			<prop number="1" value="Event Name:Exit Full Screen" />
+		
+		</event>
+		
+		<event name="addedToStage">
+		
+			<prop number="1" value="Event Name:added To Stage" />
+		
+		</event>
+		
+		<event name="modulesLoaded">
+		
+			<prop number="1" value="Event Name:modules Loaded" />
+		
+		</event>
+		
+		<event name="templateLoaded">
+		
+			<prop number="1" value="Event Name:template Loaded" />
+		
+		</event>
+		
+		<event name="templateReady">
+		
+			<prop number="1" value="Event Name:template Ready" />
+		
+		</event>
+		
+		<event name="userMessage">
+		
+			<prop number="1" value="Event Name:user Message" />
+		
+		</event>
+		
+		
+	</events>
+	
+</coremetricsEventsMap>
